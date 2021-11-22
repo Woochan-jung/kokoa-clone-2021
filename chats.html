@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>채팅창 - 크크루삥톡</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>SKT</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-2x"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">채팅</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span>
+          <a href="settings.html">
+            <i class="fas fa-cog fa-lg"></i>
+          </a>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chat.html">
+        <div class="user-component chatting">
+          <div class="user-component__column">
+            <img
+              src="https://blog.kakaocdn.net/dn/cIJKhV/btqQBGFfplX/0B0DBneQtQ7byILcLkFkZK/img.jpg"
+              class="user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">정우찬</h4>
+              <h6 class="user-component__subtitle">
+                안녕 가입한걸 축하해! 나랑 친하게 지내자~
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">15:11</span>
+            <span class="badge">1</span>
+          </div>
+        </div>
+      </a>
+      <a href="chat2.html">
+        <div class="user-component chatting">
+          <div class="user-component__column">
+            <img
+              src="https://d3kxs6kpbh59hp.cloudfront.net/community/COMMUNITY/6bdfe34ee0314a658e1a6a25b586f3b8/9e218741e1b443b6ac9f83036b64d5a2_1544423286.jpg"
+              class="user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">크크루삥톡 운영자</h4>
+              <h6 class="user-component__subtitle">
+                안녕하세요. 크크루삥톡에 가입하신 것을 환영합니다.
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">15:10</span>
+            <span class="badge">1</span>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="far fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="newpoint nav-point"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>화면 크기를 줄여주세요</span>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/1e486f9614.js"
+    crossorigin="anonymous"
+  ></script>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>정우찬 - 크크루삥톡</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar chat-status-bar">
+      <div class="status-bar__column">
+        <span>SKT</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-2x"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header chat-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">정우찬</h1>
+      </div>
+      <div class="alt-header__column chat-alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">2021년 11월 21일 일요일</div>
+      <div class="message-row">
+        <img
+          src="https://blog.kakaocdn.net/dn/cIJKhV/btqQBGFfplX/0B0DBneQtQ7byILcLkFkZK/img.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message__author">정우찬</span>
+          <div class="message__info">
+            <span class="massage__bubble"
+              >안녕 가입한걸 축하해! 나랑 친하게 지내자~
+            </span>
+            <span class="message__time">15:11</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="massage__bubble">안녕 만나서 반가워! </span>
+            <span class="message__time">15:11</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="메시지를 입력하세요" />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>화면 크기를 줄여주세요</span>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/1e486f9614.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
