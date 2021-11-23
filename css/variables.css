@@ -1,6 +1,6 @@
 :root {
   --black: #262626;
-  --horizontal-space: 45px;
+  --horizontal-space: 25px;
   --main-border: 1px solid rgba(0, 0, 0, 0.3);
   --gray-color: rgba(0, 0, 0, 0.4);
 }
