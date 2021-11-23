@@ -17,10 +17,10 @@
 }
 
 .recommanded-friends span {
-  margin: 110px 0px;
+  margin: 40px 0;
   display: block;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   color: var(--gray-color);
 }
 
@@ -33,12 +33,14 @@
 
 .open-chat__header span {
   color: var(--gray-color);
+  font-size: 15px;
 }
 
 .open-post {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 80px;
 }
 
 .open-post__title {
@@ -47,6 +49,7 @@
 }
 .open-post__hashtags {
   color: var(--gray-color);
+  font-size: 13px;
 }
 .open-post__members {
   display: flex;
@@ -62,7 +65,7 @@
 
 .open-post__members-count {
   color: var(--gray-color);
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .open-post__members .divider {
@@ -74,6 +77,7 @@
 
 .open-post__members-status {
   color: #ffb0e0;
+  font-size: 12px;
 }
 .open-post__photo {
   position: relative;
